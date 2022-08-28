@@ -1,8 +1,12 @@
-This folder contains various Metropolis Algorithm scripts for mock catalogue creation. Run times scale as the product of the number of stars and the number of Monte Carlo steps taken for each star in the Monte Carlo (MC) warming process. The Mersenne Twister is used for pseudorandom number generation, which must be downloaded as well, and included in the directory with the script (MersenneTwister.h). 
+This folder contains various Metropolis Algorithm scripts for mock catalogue creation. 
+Run times scale as the product of the number of stars and the number of Monte Carlo 
+steps taken for each star in the Monte Carlo (MC) warming process. The Mersenne Twister
+is used for pseudorandom number generation, which must be downloaded as well, and is 
+included in the directory with the script (MersenneTwister.h). 
 
 Approximately speaking, there needs to be enough MC steps such that:
 
-N*step sizedistribution's characteristic spread>1
+sqrt(N) * step size / distribution's characteristic spread > 1
 
 -The gaussian galaxy program is a toy model for testing  purposes.
 
@@ -22,7 +26,7 @@ One can read off the arguments by looking at the argv[k] assignments at the top 
 
 TO RUN:
 g++ -O3 3d_args_BuildGalaxy.cpp
-./a.out [pick an integer seed here, e.g. 433] [filename to write mock galaxy too]
+./a.out [pick an integer seed here, e.g. 433] [filename to write mock galaxy to]
 
 
 FILE INPUTS:
