@@ -14,9 +14,9 @@ Papers:
 - https://doi.org/10.3847/1538-4357/ab66c8 (source of data)
 - https://doi.org/10.3847/1538-4357/ab8235 (source of data)
 - https://doi.org/10.3847/2041-8213/aba905 (uses data)
-- https://arxiv.org/abs/2210.13450 (uses data)
+- https://doi.org/10.3847/1538-4357/ac9ccc (uses data)
 - https://doi.org/10.13023/etd.2021.471 (source of data)
 
 
 ### Tags: 
-Two-Point Correlation Function, Correlations, Metropolis, Monte Carlo, cpp, C++, Python
+Two-Point Correlation Function, Correlations, Metropolis, Monte Carlo, cpp, C++, Python, Milky Way, GAIA, Gaia Space Telescope, galaxy
